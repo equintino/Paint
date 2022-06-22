@@ -18,7 +18,7 @@ class Crop implements TransformationInterface
         $this->outputWidth = abs((int) $width);
         $this->outputHeight = abs((int) $height);
     }
-    
+
     /**
      * {@inheritdoc}
      */

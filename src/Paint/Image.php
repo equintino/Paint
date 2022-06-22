@@ -132,7 +132,7 @@ class Image
     {
         $this->height = (int) $height;
     }
-    
+
     /**
      * Add a transformation.
      *
@@ -143,7 +143,7 @@ class Image
     {
         $this->transformations[] = $transformation;
     }
-    
+
     /**
      * Add a filter.
      *
@@ -226,7 +226,7 @@ class Image
      *
      * @param int Output width.
      * @param int Output height.
-     * @param int Resize mode. Can be RESIZE_FIT or RESIZE_CROP.
+     * @param int Resize mode. Can be RESIZE_FIT(1) or RESIZE_CROP(2).
      * @return void
      **/
     public function setOutputSize($width, $height, $mode = self::RESIZE_FIT)
